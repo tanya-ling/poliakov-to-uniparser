@@ -2070,27 +2070,27 @@ def creating_new_dict():
         i += 1
         # print i
         od_line(ml, line, nd, irsd, iryd)
-    add_manually(u'./ручные лексемы/ruki.txt', nd)
-    add_manually(u'./ручные лексемы/add_torot_lexemes.txt', nd)
+    add_manually(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\poliakov-to-uniparser/ручные лексемы/ruki.txt', nd)
+    add_manually(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\poliakov-to-uniparser/ручные лексемы/add_torot_lexemes.txt', nd)
     # add_manually(u'./ручные лексемы/местоимения  torot.txt', nd)
-    add_manually(u'./ручные лексемы/местоимения нормальные.txt', nd)
+    add_manually(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\poliakov-to-uniparser/ручные лексемы/местоимения нормальные.txt', nd)
 
 def open_old_dict():
-    mlf = codecs.open(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\missedletters.json', u'r', u'utf-8')
+    mlf = codecs.open(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\poliakov-to-uniparser\missedletters.json', u'r', u'utf-8')
     ml = json.load(mlf)
-    nazv = u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\All_dict_polyakov.txt'
+    nazv = u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\poliakov-to-uniparser\All_dict_polyakov.txt'
     od = codecs.open(nazv, "r", "utf-8")
     nd = codecs.open(u'dictionary_1903_norm_pos.txt', u'w', u'utf-8')
     return ml, od, nd
 
 def irrstemsopen():
-    irs = codecs.open(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\ручные основы\irrstems_checked.txt', u'r', u'utf-8')
+    irs = codecs.open(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\poliakov-to-uniparser\ручные основы\irrstems_checked.txt', u'r', u'utf-8')
     irsd = {}
     for lin in irs:
         lin = lin.rstrip()
         lin = lin.split(u'	')
         irsd[lin[0]] = lin[1:]
-    iry = codecs.open(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\ручные основы\yati_checked.txt', u'r', u'utf-8')
+    iry = codecs.open(u'C:\Tanya\НИУ ВШЭ\двевн курсач\приведение словаря\poliakov-to-uniparser\ручные основы\yati_checked.txt', u'r', u'utf-8')
     iryd = {}
     for lin in iry:
         lin = lin.rstrip()
@@ -2397,4 +2397,4 @@ def clearinfo(wordinf):
         # print wordinf
         return wordinf
 
-creating_new_dict()
+# creating_new_dict()
