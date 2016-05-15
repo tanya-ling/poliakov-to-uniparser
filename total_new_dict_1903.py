@@ -1250,8 +1250,8 @@ def osninf(inf, paradigm):
     tri = [u'V14et', u'V14t*', u'V14ed', u'V14t',u'V14d', u'V14p', u'V13a', u'V21n', u'V21a', u'V21s', u'V21p',	u'V21t', u'V22n', u'V22p', u'V22t',	u'V22s', u'V22a', u'V12ov',	u'V12n', u'V12p', u'V12t', u'V12k', u'V12a', u'Vest', u'Vved', u'Vima', u'V12x',	u'V12x*', u'V13p+V22s',	u'V12t+V22t']
     four =[u'V13t',	u'V13k']
     if paradigm == u'Vbyt':
-        print u'так не должно быть'
-        return u'aaa'
+        # print u'так не должно быть'  # но так происходит при вызове из translate_torot
+        infstem = inf[:-4]
     if u'+' in inf:
         print u'печаль', paradigm  # печали нет
         return u'aaa'
