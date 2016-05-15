@@ -1,0 +1,210 @@
+-lexeme
+ lex: свеча
+ stem: свеча.|свещ.
+ gramm: N,f,inan
+ paradigm: N
+ transl_ru: 
+-lexeme
+ lex: изъ
+ stem: изъ.//исъ.
+ gramm: PREP
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: совѣ́тъ
+ stem: советъ.//светъ.
+ gramm: N,m,inan
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: собо́ръ
+ stem: соборъ.//сборъ.//зборъ.
+ gramm: N,m,inan
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: о́льга
+ stem: олг.|олз.|олж.
+ gramm: N,f,anim,persn
+ paradigm: N3k
+ transl_ru: 
+-lexeme
+ lex: новгоро́дскій
+ stem: новгородск.//новгородт.//новогородск.//новогородт.//новугородск.//новугородт.//ноугородт.|новгородсц.//новогородсц.//новугородсц.//ноугородсц.
+ gramm: A
+ paradigm: A1k
+ transl_ru: 
+-lexeme
+ lex: но́вгородъ
+ stem: новгородъ.//новогородъ.//новугородъ.//ноугородъ.
+ gramm: N,m,inan,topn
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: но́вградъ
+ stem: новградъ.//новоградъ.//новуградъ.//новаградъ.//ноуградъ.
+ gramm: N,m,inan,topn
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: передъ
+ stem: передъ.|предъ.
+ gramm: PREP
+ paradigm: 
+ transl_ru: 
+-lexeme
+ lex: же
+ stem: же.//ж.
+ gramm: PART
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: четь
+ stem: чет.
+ gramm: N,f,inan
+ paradigm: N41
+ transl_ru: 
+-lexeme
+ lex: пашня
+ stem: пашн.|пашен.
+ gramm: N,f,inan
+ paradigm: N3j_STAR_
+ transl_ru: 
+-lexeme
+ lex: человѣ́къ
+ stem: люд.
+ gramm: N,m,anim
+ paradigm: N41
+ transl_ru: 
+-lexeme
+ lex: для
+ stem: для.
+ gramm: PREP
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: иванъ
+ stem: иван.
+ gramm: N,m,anim
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: рубль
+ stem: рубл.
+ gramm: N,m
+ paradigm: N1j
+ transl_ru: 
+-lexeme
+ lex: ве́сь
+ stem: вс.//вес.
+ gramm: A-PRO
+ paradigm: Pro
+ transl_ru: 
+-lexeme
+ lex: сво́й
+ stem: сво.
+ gramm: A-PRO
+ paradigm: Pro
+ transl_ru: 
+-lexeme
+ lex: в
+ stem: въ.//во.
+ gramm: PREP
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: и́мя
+ stem: имя.//имя.|имен.//имен.//именн.//имян.
+ gramm: N,n,inan
+ paradigm: N5en
+ transl_ru: 
+-lexeme
+ lex: аѳонасій
+ stem: афонась.//афонаси.//афонасе.
+ gramm: N,m,anim,persn
+ paradigm: N1i
+ transl_ru: 
+-lexeme
+ lex: что́бы
+ stem: чтобы.//чтобъ.
+ gramm: CONJ
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: рухлядь
+ stem: рухляд.//рухлед.
+ gramm: N,f,inan
+ paradigm: N41
+ transl_ru: 
+-lexeme
+ lex: государевъ
+ stem: государев.
+ gramm: A,poss
+ paradigm: A2t
+ transl_ru: 
+-lexeme
+ lex: же
+ stem: же.//жъ.
+ gramm: PART
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: това́ръ
+ stem: товар.
+ gramm: N,m,inan
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: бо́
+ stem: бо.//бъ.
+ gramm: PART
+ paradigm: unchangeable
+ transl_ru: потому что
+-lexeme
+ lex: служилый
+ stem: служил.
+ gramm: A
+ paradigm: A1t
+ transl_ru: 
+-lexeme
+ lex: безъ
+ stem: безъ.//безо.
+ gramm: PREP
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: съ
+ stem: съ.//со.//зъ.
+ gramm: PREP
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: я́же
+ stem: яже.//яж.
+ gramm: CONJ
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: я́кѡже
+ stem: якоже.//якож.
+ gramm: CONJ
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: я́кѡ
+ stem: яко.//як.
+ gramm: CONJ
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: а́кѡ
+ stem: ако.//акы.
+ gramm: ADV
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: туда́
+ stem: туда.//туды.
+ gramm: ADV-PRO
+ paradigm: unchangeable
+ transl_ru: 

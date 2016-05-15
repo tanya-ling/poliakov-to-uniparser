@@ -1,0 +1,30 @@
+-lexeme
+ lex: тотъ
+ stem: .
+ gramm: N-PRO-tot
+ paradigm: uk-t-m
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: .
+ gramm: N-PRO-i
+ paradigm: uk-е-n
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: .
+ gramm: N-PRO-tot
+ paradigm: uk-to-n
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: .
+ gramm: N-PRO-tot
+ paradigm: uk-ta-f
+ transl_ru: 
+-lexeme
+ lex: е
+ stem: .
+ gramm: N-PRO-i
+ paradigm: uk-ja-f
+ transl_ru: 

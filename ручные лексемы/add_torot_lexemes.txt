@@ -1,0 +1,36 @@
+-lexeme
+ lex: пакы
+ stem: пакы.
+ gramm: ADV
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: влади́міръ
+ stem: владимир.//володимир.
+ gramm: N,m,anim,persn
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: аже
+ stem: аже.//ажно.//ажъ.
+ gramm: CONJ
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тогда
+ stem: тогда.//тгда.
+ gramm: ADV
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: прежде
+ stem: прежде.//преже.
+ gramm: ADV
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: еже
+ stem: еже.//еж.
+ gramm: CONJ
+ paradigm: unchangeable
+ transl_ru: чтобы
