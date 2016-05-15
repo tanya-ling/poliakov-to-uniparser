@@ -1314,23 +1314,23 @@ def test_particle(particle, dic_word, part):
 def osnnoun(dic_word, paradigm):
     if paradigm == u'Pro':
         stem0 = pro_stem(dic_word, paradigm)
-    elif paradigm == u'NUM' or paradigm == u'N1t' or paradigm == u'N6t' or paradigm == u'N3j' or paradigm == u'N1c' or paradigm == u'N1t*' or paradigm == u'N1k' or paradigm == u'N1g' or paradigm == u'N1k*' or paradigm == u'N1s' or paradigm == u'N1c*':
+    elif paradigm == u'NUM' or paradigm == u'N1t' or paradigm == u'N6t' or paradigm == u'N3j' or paradigm == u'N1c' or paradigm == u'N1t*' or paradigm == u'N1k' or paradigm == u'N1g' or paradigm == u'N1k*' or paradigm == u'N1s' or paradigm == u'N1c*' or paradigm == u'N1t_STAR' or paradigm == u'N1k_STAR' or paradigm == u'N1c_STAR':
         stem0 = dic_word[:-1]  #минус ъ
     elif paradigm == u'N1a' or paradigm == u'N1i' or paradigm == u'N1e':
         stem0 = dic_word[:-1]     #минус й
     elif paradigm == u'N1in':
         stem0 = dic_word[:-3]     #минус инъ
-    elif paradigm == u'N2t' or paradigm == u'N2t*' or paradigm == u'N2k':
+    elif paradigm == u'N2t' or paradigm == u'N2t*' or paradigm == u'N2k' or paradigm == u'N2t_STAR':
         stem0 = dic_word[:-1]     #минус о
     elif paradigm == u'N2s' or paradigm == u'N2c' or paradigm == u'N2c*' or paradigm == u'N2i' or paradigm == u'N2e' or paradigm == u'N2j':
         stem0 = dic_word[:-1]     #минус е
-    elif paradigm == u'N3t' or paradigm == u'N3t*' or paradigm == u'N3k' or paradigm == u'N3k*' or paradigm == u'N3s' or paradigm == u'N3c' or paradigm == u'N3c*':
+    elif paradigm == u'N3t' or paradigm == u'N3t*' or paradigm == u'N3k' or paradigm == u'N3k*' or paradigm == u'N3s' or paradigm == u'N3c' or paradigm == u'N3c*' or paradigm == u'N3k_STAR' or paradigm == u'N3c_STAR':
         stem0 = dic_word[:-1]     #минус а
-    elif paradigm == u'N3j*' or paradigm == u'N3a' or paradigm == u'N3i':
+    elif paradigm == u'N3j*' or paradigm == u'N3a' or paradigm == u'N3i' or paradigm == u'N3j_STAR':
         stem0 = dic_word[:-1]     #минус я
     elif paradigm == u'N3e':
         stem0 = dic_word[:-1]     #минус а/я
-    elif paradigm == u'N41' or paradigm == u'N42' or paradigm == u'N43' or paradigm == u'N43*' or paradigm == u'N5*ov' or paradigm == u'N1j' or paradigm == u'N1j*' or paradigm == u'N1sj':
+    elif paradigm == u'N41' or paradigm == u'N42' or paradigm == u'N43' or paradigm == u'N43*' or paradigm == u'N5*ov' or paradigm == u'N1j' or paradigm == u'N1j*' or paradigm == u'N1sj' or paradigm == u'N1j_STAR' or paradigm == u'N5_STAR_ov':
         stem0 = dic_word[:-1]     #минус ь
     elif paradigm == u'N5en' or paradigm == u'N5et' or paradigm == u'N5es' or paradigm == u'N5er' or paradigm == u'N5ov':
         stem0 = dic_word     #минус ничего
@@ -1363,6 +1363,7 @@ def add_verb_parad(paradigm): # 15/02 ощущение, что оригинал�
     if paradigm == u'V12x':
         paradigm += u'/V12x*'
     return paradigm
+
 
 def verbstem(lexeme, paradigm, testq, test):
     # print u'verbstem working'
@@ -1470,8 +1471,8 @@ def verbstem(lexeme, paradigm, testq, test):
         print u'verbstem_4', lexeme, paradigm, result
     return result, paradigm
 
+
 def nounstem(paradigm, osnova):
-    # print u'nounstem'
     stem = []
     stem.append(osnova)
     if paradigm == u'N1j*':
@@ -1481,7 +1482,7 @@ def nounstem(paradigm, osnova):
         print u'камень готов'''''
     stemsC = u''
     stem2 = []
-    if paradigm == u'N1t*' or paradigm == u'N1j*':
+    if paradigm == u'N1t*' or paradigm == u'N1j*' or paradigm == u'N1t_STAR' or paradigm == u'N1j_STAR':
         # print u'arigato'
         if len(stem) > 3:
             stem1 = beglyi(stem)
@@ -1489,13 +1490,13 @@ def nounstem(paradigm, osnova):
         stem1 = palatal_g_h(stem)
     elif paradigm == u'N1k':
         stem1 = palatal_k(stem)
-    elif paradigm == u'N1k*':
+    elif paradigm == u'N1k*' or paradigm == u'N1k_STAR':
         stem1 = beglyi(stem)
         stem2 = palatal_k(stem1)
-    elif paradigm == u'N1c*':
+    elif paradigm == u'N1c*' or paradigm == u'N1c_STAR':
         stem1 = beglyi(stem)
         stem2 = change_c(stem1)
-    elif paradigm == u'N2t*':
+    elif paradigm == u'N2t*' or paradigm == u'N2t_STAR':
         stem1 = vstavnoi_e(stem)
         stem2 = vstavnoi_o(stem)
         stems1 = u'.|'.join(stem1)
@@ -1506,10 +1507,10 @@ def nounstem(paradigm, osnova):
     elif paradigm == u'N2k':
         #все 2
         stem1 = palatal_k_g_h(stem)
-    elif paradigm == u'N2c*':
+    elif paradigm == u'N2c*' or paradigm == u'N2c_STAR':
         #все 2
         stem1 = vstavnoi_e(stem)
-    elif paradigm == u'N3t*':
+    elif paradigm == u'N3t*' or paradigm == u'N3t_STAR':
         #все 2
         stem1 = vstavnoi_e(stem)
         stem2 = vstavnoi_o(stem)
@@ -1518,20 +1519,20 @@ def nounstem(paradigm, osnova):
         stems = stems1 + u'.//' + stems2 + u'.'
         stemsC = stems
         stem2 = []
-    elif paradigm == u'N3j*':
+    elif paradigm == u'N3j*' or paradigm == u'N3j_STAR':
         #все 2
         stem1 = vstavnoi_e(stem)
     elif paradigm == u'N3k':
         #все 2
         stem1 = palatal_k_g_h(stem)
-    elif paradigm == u'N3k*':
+    elif paradigm == u'N3k*' or paradigm == u'N3k_STAR':
         #все 2
         stem1 = vstavnoi_o(stem)
         stem2 = change_k_noun(stem)
-    elif paradigm == u'N3c*':
+    elif paradigm == u'N3c*' or paradigm == u'N3c_STAR':
         #все 2
         stem1 = vstavnoi_e(stem)
-    elif paradigm == u'N43*':
+    elif paradigm == u'N43*' or paradigm == u'N43_STAR':
         #все 2
         stem1 = beglyi(stem)
     elif paradigm == u'N5en':
@@ -1549,15 +1550,15 @@ def nounstem(paradigm, osnova):
     elif paradigm == u'N5ov':
         #все 2
         stem1 = narashenie_ov(stem)
-    elif paradigm == u'N5*ov':
+    elif paradigm == u'N5*ov' or paradigm == u'N5_STAR_ov':
         stem1 = beglyi(stem)
     elif paradigm == u'A1k' or paradigm == u'A1g':
         stem1 = change_k_g_h_adj(stem)
-    elif paradigm == u'A1t*':
+    elif paradigm == u'A1t*' or paradigm == u'A1t_STAR':
         stem1 = vstavnoi_e(stem)
-    elif paradigm == u'A1j*':
+    elif paradigm == u'A1j*' or paradigm == u'A1j_STAR':
         stem1 = vstavnoi_e(stem)
-    elif paradigm == u'A1k*':
+    elif paradigm == u'A1k*' or paradigm == u'A1k_STAR':
         stem1 = vstavnoi_e(stem)
         stem2 = vstavnoi_o(stem)
         stems1 = u'.|'.join(stem1)
@@ -1573,8 +1574,8 @@ def nounstem(paradigm, osnova):
         return stem1[0]
     if len(stemsC) > 0:
         return osnova + u'.|' + stemsC
-    stems1 =  u'.|'.join(stem1)
-    if len(stem2)>0:
+    stems1 = u'.|'.join(stem1)
+    if len(stem2) > 0:
         stems2 = u'.|'.join(stem2)
         stems = osnova + u'.|' + stems1 + u'.|' + stems2 + u'.'
     else:
