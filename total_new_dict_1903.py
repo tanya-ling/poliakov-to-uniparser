@@ -891,16 +891,20 @@ def add_sh(orig):
         word1=word[:-1]+u'щ'
         stems.append(word1)
     return stems
+
+
 def idti(orig):
     stems = []
     vowels = u'уеыаоэяиюъьѣ'
     consonants = u'йцкнгшщзхфвпрлджчсмтб'
+    if orig[0] == u'ид':
+        return [u'ид.//ий.//и.', u'ид.', u'ш.', u'ше.', u'шед.']
     for word in orig:
-        if len(word) <=1 or ((word[-1] == u'и' or word[-1] == u'й') and word[-2] in vowels):
+        if len(word) <= 1 or ((word[-1] == u'и' or word[-1] == u'й') and word[-2] in vowels):
             if word[-1] == u'и':
-                word1 = word +u'д' + u'.//' + word[:-1] + u'йд'
+                word1 = word + u'д' + u'.//' + word[:-1] + u'йд'
             else:
-                word1 = word +u'д' + u'.//' + word[:-1] + u'ид'
+                word1 = word + u'д' + u'.//' + word[:-1] + u'ид'
             try:
                 if word[-2] == u'и':
                     word1 = word1 + u'.//' + word[:-2] + u'ид'
@@ -908,11 +912,11 @@ def idti(orig):
                 pass
                 #print u'идти out of range', orig[0]
             if len(word) <= 1:
-                word2=u'ш'
+                word2 = u'ш'
             else:
-                word2=word[:-1]+u'ш'
-            word3=word2+u'е'
-            word4=word3+u'д'
+                word2 = word[:-1] + u'ш'
+            word3 = word2 + u'е'
+            word4 = word3 + u'д'
             stems.append(word1)
             stems.append(word2)
             stems.append(word3)
@@ -941,14 +945,16 @@ def idti(orig):
         else:
             print u'idti_wow', orig[0]
     return stems
+
+
 def exat(orig):
     stems = []
-    vowels = u'уеыаоэяиюъьѣ'
-    consonants = u'йцкнгшщзхфвпрлджчсмтб'
     for word in orig:
         word1 = word[:-2]+u'д'
         stems.append(word1)
     return stems
+
+
 def ved(orig):
     stems = []
     for word in orig:
@@ -959,8 +965,6 @@ def ved(orig):
 # сущ и прил, порождение косвенных основ
 def beglyi(orig):
     #удаляем последний гласный основы(после него макс 3), соответсвует * у полякова
-    '''if orig == [u'камен']:
-        print u'камень преобразуется'''''
     stems = []
     vowels = u'уеыаоэяиюъьѣ'
     consonants = u'йцкнгшщзхфвпрлджчсмтб'
@@ -1039,6 +1043,8 @@ def palatal_k_g_h(orig):
             # print u'palatal_k_g_wow', orig[0]
             return u'wrong'
     return stems
+
+
 def change_c(orig):
     #меняем последний согласный основы. не рассатриваем кластеры (надо?) вариант звонких
     stems = []
@@ -1050,6 +1056,8 @@ def change_c(orig):
             return u'wrong'
         stems.append(word1)
     return stems
+
+
 def change_k_noun(orig):
     #меняем последний согласный основы. не рассатриваем кластеры (надо?) вариант звонких
     stems = []
@@ -1252,6 +1260,7 @@ def osninf(inf, paradigm):
     if paradigm == u'Vbyt':
         # print u'так не должно быть'  # но так происходит при вызове из translate_torot
         infstem = inf[:-4]
+        return infstem
     if u'+' in inf:
         print u'печаль', paradigm  # печали нет
         return u'aaa'
@@ -1337,7 +1346,7 @@ def osnnoun(dic_word, paradigm):
     elif paradigm == u'A1i':
         stem0 = dic_word[:-1]
     elif paradigm[0] == u'A':
-        if dic_word[-1] == u'й' or dic_word[-2:] == u'ое':
+        if dic_word[-1] == u'й' or dic_word[-2:] == u'ое' or dic_word[-1] == u'и':
             stem0 = dic_word[:-2]
         elif dic_word[-1] == u'ъ' or dic_word[-1] == u'ь' or dic_word[-3:] == u'ина':
             stem0 = dic_word[:-1]
@@ -1458,10 +1467,6 @@ def verbstem(lexeme, paradigm, testq, test):
         stem1 = change_k_g_h(stem)
     else:
         stem1 = []
-#тестовая часть
-     #if paradigm == u'':
-      #  stem1 =
-    #print u'stem1'
     try:
         result = u'.|'.join(stem1)
     except:
@@ -1493,6 +1498,8 @@ def nounstem(paradigm, osnova):
     elif paradigm == u'N1k*' or paradigm == u'N1k_STAR':
         stem1 = beglyi(stem)
         stem2 = palatal_k(stem1)
+    elif paradigm == u'N1c':
+        stem1 = change_c(stem)
     elif paradigm == u'N1c*' or paradigm == u'N1c_STAR':
         stem1 = beglyi(stem)
         stem2 = change_c(stem1)
