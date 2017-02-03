@@ -76,4 +76,5 @@ for word in ml:
 for line in op:
     line = line.replace(',inan', '')
     line = line.replace(',anim', '')
+    line = line.replace(u'́', '')
     nd.write(line)
