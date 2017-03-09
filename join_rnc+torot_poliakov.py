@@ -1,13 +1,16 @@
 #-*- coding: utf-8 -*-
-import re
 import codecs
 import json
+import sys
+sys.path.insert(0, u'C:\Tanya\НИУ ВШЭ\двевн курсач\parsed\\UniParser2.0_MidRus\MiddleRussian')
+from tanyacommonform_2103 import commonform
 
-mlf = codecs.open(u'C:\\Users\\Tatiana\\Documents\\GitHub\\paradigm_tagging\\joined_2.json', u'r', u'utf-8')
+mlf = codecs.open(u'C:\\Users\\Tatiana\\Documents\\GitHub\\paradigm_tagging\\joined_3.json', u'r', u'utf-8')
 ml = json.load(mlf)
 
 op = codecs.open(u'C:\\Users\\Tatiana\\Documents\\GitHub\\poliakov-to-uniparser\\dictionary_1903_norm_pos.txt', 'r', 'utf-8')
 nd = codecs.open('themain_d_for_parser.txt', 'w', 'utf-8')
+
 
 
 def listmerge3(lstlst):
@@ -17,7 +20,33 @@ def listmerge3(lstlst):
     return all
 
 
+def clear_stems(stems):
+    stems1n = []
+    stems1 = stems.split('|')
+    for stems11 in stems1:
+        stems2 = stems11.split('//')
+        stems2n = []
+        for stem21 in stems2:
+            # if stem21 == u'лтьск.':
+            #     # print 'we are doing greak there'
+            if stem21 != u'ся.':
+                stem21n = commonform(stem21)
+                stems2n.append(stem21n)
+        stems12 = '//'.join(set(stems2n))
+        stems1n.append(stems12)
+    stems = '|'.join(stems1n).replace('..', '.')
+    return stems
+
+
+def dealwithtsa(lemma, pos):
+    if pos == 'V':
+        if lemma[-2:] == u'ся':
+            lemma = lemma[:-2]
+    return lemma
+
+
 def the_main_thing(string_index, word, lemma, gram):
+        lemma = dealwithtsa(lemma, gram)
         for paradigm in word[string_index]:
             cont = False
             stems = ''
@@ -47,9 +76,14 @@ def the_main_thing(string_index, word, lemma, gram):
             if cont:
                 continue
             stems = stems[:-1]
-            info = u'-lexeme\r\n lex: ' + lemma + '\r\n stem: ' + stems + '\r\n gramm: ' + gram +'\r\n paradigm: ' + paradigm +'\r\n transl_ru: \r\n'
-            nd.write(info)
+            # if lemma == u'летский':
+            #     print 'it is ok now', stems
+            stems = clear_stems(stems)
+            info = u'-lexeme\r\n lex: ' + lemma + '\r\n stem: ' + stems + '\r\n gramm: ' + gram.replace('N', 'S') +'\r\n paradigm: ' + paradigm +'\r\n transl_ru: \r\n'
+            nd.write(info.replace('STAR_\r\n', 'STAR\r\n'))
 
+
+lemmas = {}
 
 for word in ml:
     if 'lemma_new' in word:
@@ -62,19 +96,33 @@ for word in ml:
         gram = word['pos'] + u',' + word['tor_gender']
     else:
         gram = word['pos']
+    lemmas[commonform(lemma)] = lemma
     if 'par_stem' in word:
         the_main_thing('par_stem', word, lemma, gram)
     elif 'tor_par_stem' in word:
         the_main_thing('tor_par_stem', word, lemma, gram)
     else:
         paradigm = 'unchangeable'
-        stems = ''
-        info = u'-lexeme\r\n lex: ' + lemma + '\r\n stem: ' + stems + '\r\n gramm: ' + gram + '\r\n paradigm: ' + paradigm + '\r\n transl_ru: \r\n'
-        nd.write(info)
+        stems = commonform(lemma) + u'.'
+        info = u'-lexeme\r\n lex: ' + lemma + '\r\n stem: ' + stems + '\r\n gramm: ' + gram.replace('N', 'S') + '\r\n paradigm: ' + paradigm + '\r\n transl_ru: \r\n'
+        nd.write(info.replace('STAR_\r\n', 'STAR\r\n'))
 
 
 for line in op:
+    if line[:6] == u' lex: ':
+        lemma = line.rstrip()[6:]
+        if commonform(lemma) in lemmas:
+            line =  u' lex: ' + lemmas[commonform(lemma)] + '\r\n'
     line = line.replace(',inan', '')
     line = line.replace(',anim', '')
     line = line.replace(u'́', '')
+    line = line.replace('A,', 'Adj,')
+    line = line.replace('A\r\n', 'Adj\r\n')
+    line = line.replace('A-', 'Adj-')
+    line = line.replace(' gramm: N', ' gramm: S')
+    line = line.replace('STAR_\r\n', 'STAR\r\n')
+    line = line.replace('uk-е-n', 'uk-e-n')
     nd.write(line)
+#
+# print commonform(u'льтьск')
+# print commonform(u'лтьск')

@@ -156,7 +156,7 @@
  transl_ru: 
 -lexeme
  lex: бо́
- stem: бо.//бъ.
+ stem: бо.
  gramm: PART
  paradigm: unchangeable
  transl_ru: потому что
