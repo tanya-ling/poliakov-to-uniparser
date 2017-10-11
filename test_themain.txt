@@ -1,0 +1,48 @@
+-lexeme
+ lex: долбескъ
+ stem: долбеск.//долбск.|лобск.//долбск.|долбсц.|долбщ.
+ gramm: S,m
+ paradigm: N1k_STAR
+ transl_ru: 
+-lexeme
+ lex: владимиръ
+ stem: владимир.
+ gramm: S,m
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: владимиръ
+ stem: владимир.
+ gramm: S,m
+ paradigm: N6t
+ transl_ru: 
+-lexeme
+ lex: шелудивый
+ stem: шелудив.
+ gramm: A
+ paradigm: A1t
+ transl_ru: 
+-lexeme
+ lex: владимірскій
+ stem: владимирт.//владимирск.|владимирсц.
+ gramm: A
+ paradigm: A1k
+ transl_ru: 
+-lexeme
+ lex: владимиръ
+ stem: владимир.
+ gramm: S,m,persn
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: владиславъ
+ stem: владислав.
+ gramm: S,m,persn
+ paradigm: N1t
+ transl_ru: 
+-lexeme
+ lex: владимиръ
+ stem: владимир.//володимир.
+ gramm: S,m,persn
+ paradigm: N1t
+ transl_ru: 

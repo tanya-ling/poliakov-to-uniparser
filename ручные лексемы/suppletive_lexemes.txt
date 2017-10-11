@@ -1,0 +1,1332 @@
+-lexeme
+ lex: быти
+ stem: естесь.//есте.//естеся.
+ gramm: SPRO,indic,praes,pl,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: сутсь.//суть.//суца.
+ gramm: SPRO,indic,praes,pl,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: ессь.//есся.//есъ.//есмысь.//есмыся.//есмы.//есмясь.//есмя.//есмяся.
+ gramm: SPRO,indic,praes,pl,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: былись.//были.//былися.
+ gramm: SPRO,perf,pl,m
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: былась.//была.//былася.
+ gramm: SPRO,perf,pl,n
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: были.//былися.//былыся.//былысь.//былись.//былы.
+ gramm: SPRO,perf,pl,f
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бытсь.//быть.//быца.//быти.//бысть.
+ gramm: SPRO,inf
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будись.//будися.//буди.
+ gramm: SPRO,imper,sg,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будись.//будися.//буди.
+ gramm: SPRO,imper,sg,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будете.//будетеся.//будитесь.//будитеся.//будѣтеся.//будѣтесь.//будетесь.//будѣте.//будите.
+ gramm: SPRO,imper,pl,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: былося.//былось.//было.
+ gramm: SPRO,perf,sg,n
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бѣся.//бѣ.//бѣсь.//бесь.//беся.//бе.
+ gramm: SPRO,indic,aor,sg,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быстсь.//быся.//бысца.//бысть.//бысь.//бы.//бѣся.//бѣ.//бѣсь.//бесь.//беся.//бе.
+ gramm: SPRO,indic,aor,sg,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: есвась.//есвася.//есва.//есвесь.//есве.//есвѣсь.//есвеся.//есвѣся.//есвѣ.
+ gramm: SPRO,indic,praes,du,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: естѣ.//есте.//естась.//естася.//еста.//естесь.//естѣся.//естѣсь.//естеся.
+ gramm: SPRO,indic,praes,du,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: естѣ.//есте.//естась.//естася.//еста.//естесь.//естѣся.//естѣсь.//естеся.
+ gramm: SPRO,indic,praes,du,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бяхове.//бяхова.//бяховѣся.//бяховесь.//бяховеся.//бяховѣсь.//бяховась.//бяховѣ.//бяховася.
+ gramm: SPRO,indic,imperf,du,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бяста.//бястѣсь.//бястеся.//бястесь.//бястѣся.//бястася.//бясте.//бястась.//бястѣ.
+ gramm: SPRO,indic,imperf,du,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бяста.//бястѣсь.//бястеся.//бястесь.//бястѣся.//бястася.//бясте.//бястась.//бястѣ.
+ gramm: SPRO,indic,imperf,du,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бястеся.//бястесь.//бясте.
+ gramm: SPRO,indic,imperf,pl,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бяху.//бяхусь.//бяхуся.
+ gramm: SPRO,indic,imperf,pl,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бяхомъ.//бяхомся.//бяхомсь.
+ gramm: SPRO,indic,imperf,pl,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: былѣся.//былесь.//былеся.//былѣсь.//быле.//былѣ.
+ gramm: SPRO,perf,du,f
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бѣхся.//бѣхсь.//бяхся.//бяхсь.//быхся.//быхъ.//быхсь.//бехсь.//бехся.//бѣхъ.//бяхъ.//бехъ.
+ gramm: SPRO,indic,imperf,sg,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бѣся.//бѣ.//бѣсь.//бяше.//бяшесь.//бяшеся.
+ gramm: SPRO,indic,imperf,sg,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бяшесь.//бяше.//бяшеся.
+ gramm: SPRO,indic,imperf,sg,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бѣховась.//бѣхова.//бѣховася.//беховеся.//беховася.//беховась.//беховесь.//бехова.//бехове.//бѣховѣ.//бѣховѣся.//бѣховѣсь.
+ gramm: SPRO,indic,aor,du,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: беста.//бѣста.//бѣстася.//бесте.//бѣстась.//бестесь.//бестась.//бестася.//бестеся.//бѣстѣ.//бѣстѣсь.//бѣстѣся.
+ gramm: SPRO,indic,aor,du,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: беста.//бѣста.//бѣстася.//бесте.//бѣстась.//бестесь.//бестась.//бестася.//бестеся.//бѣстѣ.//бѣстѣсь.//бѣстѣся.
+ gramm: SPRO,indic,aor,du,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: былъ.//былсь.//былся.
+ gramm: SPRO,perf,sg,m
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будемся.//будемсь.//будиме.//будимсь.//будимъ.//будемъ.//будимся.//будимеся.//будимесь.//бѹдѣмсь.//будемеся.//бѹдѣмъ.//бѹдѣмся.//будемесь.//будеме.
+ gramm: SPRO,imper,pl,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бѣшась.//бѣшася.//бѣша.//бѣшѧся.//бѣшѧсь.//беша.//бешѧсь.//бешѧся.//бешѧ.//бѣшѧ.//бешася.//бешась.
+ gramm: SPRO,indic,aor,pl,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бѣстеся.//бѣстесь.//бѣсте.//бестесь.//бестеся.//бесте.
+ gramm: SPRO,indic,aor,pl,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бѣхомъ.//бѣхомся.//бѣхомсь.//бехомсь.//бехомся.//бехомъ.
+ gramm: SPRO,indic,aor,pl,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будитѣся.//будитѣсь.//будитася.//будитѣ.//будитесь.//будитеся.//будита.//будите.//будитась.
+ gramm: SPRO,imper,du,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будевѣся.//будевѣсь.//будивѣсь.//будива.//будеве.//будевѣ.//будевася.//будиве.//будевась.//будивѣся.//будивась.//будивася.//будевесь.//будева.//будивѣ.//будивесь.//будевеся.//будивеся.
+ gramm: SPRO,imper,du,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: бѣхся.//бѣхсь.//бехсь.//бехся.//бѣхъ.//бехъ.
+ gramm: SPRO,indic,aor,sg,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: есмсь.//есмь.//есмся.
+ gramm: SPRO,indic,praes,sg,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: есись.//есися.//еси.
+ gramm: SPRO,indic,praes,sg,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: есца.//есть.//естсь.
+ gramm: SPRO,indic,praes,sg,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: былась.//была.//былася.
+ gramm: SPRO,perf,du,m
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: былѣся.//былесь.//былеся.//былѣсь.//быле.//былѣ.
+ gramm: SPRO,perf,du,n
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: былась.//была.//былася.
+ gramm: SPRO,perf,sg,f
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будетесь.//будетеся.//будете.
+ gramm: SPRO,analyt,indic,praes,pl,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будю.//будуца.//будоу.//будутъ.//будутсь.//будуть.//будоусь.//будоуся.//будюся.//будюсь.
+ gramm: SPRO,analyt,indic,praes,pl,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будемся.//будемсь.//будемъ.//будеме.//будемеся.//будемесь.
+ gramm: SPRO,analyt,indic,praes,pl,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быстсь.//бысца.//бысть.
+ gramm: SPRO,analyt,indic,aor,sg,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быстсь.//бысца.//бысть.
+ gramm: SPRO,analyt,indic,aor,sg,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будевѣся.//будевѣсь.//будевась.//будевесь.//будевеся.//будевася.//бѹдевѣ.//бѹдевѣсь.//бѹдевѣся.//будева.//будеве.//будевѣ.
+ gramm: SPRO,analyt,indic,praes,du,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будета.//будете.//будетѣся.//будетѣсь.//будетась.//будетесь.//будетеся.//будетася.//будетѣ.
+ gramm: SPRO,analyt,indic,praes,du,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будета.//будете.//будетѣся.//будетѣсь.//будетась.//будетесь.//будетеся.//будетася.//будетѣ.
+ gramm: SPRO,analyt,indic,praes,du,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быховѣся.//быховѣсь.//быховась.//быховесь.//быховѣ.//быховася.//быхова.//быхове.//быховеся.
+ gramm: SPRO,analyt,indic,aor,du,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быстѣсь.//быстѣся.//быстѣ.//быстася.//быстеся.//быстесь.//быстась.//быста.//бысте.
+ gramm: SPRO,analyt,indic,aor,du,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быстѣсь.//быстѣся.//быстѣ.//быстася.//быстеся.//быстесь.//быстась.//быста.//бысте.
+ gramm: SPRO,analyt,indic,aor,du,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быша.//бышась.//бышася.//бышѧся.//бышѧсь.//бышѧ.
+ gramm: SPRO,analyt,indic,aor,pl,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быстеся.//быстесь.//бысте.
+ gramm: SPRO,analyt,indic,aor,pl,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быхомся.//быхомсь.//быхомъ.
+ gramm: SPRO,analyt,indic,aor,pl,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: быхся.//быхъ.//быхсь.
+ gramm: SPRO,analyt,indic,aor,sg,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будуся.//будусь.//буду.
+ gramm: SPRO,analyt,indic,praes,sg,1p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будеши.//будешися.//будешись.
+ gramm: SPRO,analyt,indic,praes,sg,2p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: быти
+ stem: будеца.//будесь.//будетсь.//будеся.//будеть.//будетъ.//буде.
+ gramm: SPRO,analyt,indic,praes,sg,3p
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: язъ
+ stem: мене.//мя.//меня.
+ gramm: SPRO,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: язъ
+ stem: мнѣ.//мне.
+ gramm: SPRO,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: язъ
+ stem: язъ.//азъ.
+ gramm: SPRO,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: язъ
+ stem: мною.
+ gramm: SPRO,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: язъ
+ stem: мне.//ми.//мнѣ.
+ gramm: SPRO,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: язъ
+ stem: мене.//меня.
+ gramm: SPRO,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: себя
+ stem: себе.//ся.
+ gramm: SPRO,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: себя
+ stem: си.//собе.//себе.//собѣ.//себѣ.
+ gramm: SPRO,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: себя
+ stem: собе.//себѣ.//собѣ.//себе.
+ gramm: SPRO,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: себя
+ stem: себе.
+ gramm: SPRO,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: себя
+ stem: собою.
+ gramm: SPRO,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: нама.
+ gramm: SPRO,du,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: мы.
+ gramm: SPRO,du,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: наю.
+ gramm: SPRO,du,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: насъ.
+ gramm: SPRO,pl,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: насъ.//ны.
+ gramm: SPRO,pl,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: насъ.
+ gramm: SPRO,pl,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: наю.
+ gramm: SPRO,du,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: вами.
+ gramm: SPRO,pl,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: на.//ны.
+ gramm: SPRO,du,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: нама.
+ gramm: SPRO,du,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: мы.
+ gramm: SPRO,pl,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: мы
+ stem: намъ.//мы.
+ gramm: SPRO,pl,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: что
+ stem: что.
+ gramm: SPRO,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: что
+ stem: чемъ.//чесомъ.//чесомь.
+ gramm: SPRO,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: что
+ stem: что.
+ gramm: SPRO,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: что
+ stem: чимъ.//цемъ.//цѣмь.//цѣмъ.
+ gramm: SPRO,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: что
+ stem: чесому.//чему.
+ gramm: SPRO,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: что
+ stem: чесого.//чего.//чесо.//чево.
+ gramm: SPRO,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: кто
+ stem: кто.//хто.//кого.
+ gramm: SPRO,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: кто
+ stem: комь.//комъ.
+ gramm: SPRO,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: кто
+ stem: кто.//хто.
+ gramm: SPRO,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: кто
+ stem: кимъ.
+ gramm: SPRO,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: кто
+ stem: кому.
+ gramm: SPRO,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: кто
+ stem: кого.//ково.
+ gramm: SPRO,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: ты
+ stem: тя.//тебе.
+ gramm: SPRO,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: ты
+ stem: тебѣ.//тобѣ.//тебе.//тобе.
+ gramm: SPRO,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: ты
+ stem: ты.
+ gramm: SPRO,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: ты
+ stem: тобою.
+ gramm: SPRO,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: ты
+ stem: ти.//тебе.//тобе.//тобѣ.//тебѣ.
+ gramm: SPRO,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: ты
+ stem: тебя.//тебе.//тобе.
+ gramm: SPRO,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: вама.
+ gramm: SPRO,du,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: ва.//вѣ.//вы.//ве.
+ gramm: SPRO,du,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: ваю.
+ gramm: SPRO,du,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: васъ.
+ gramm: SPRO,pl,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: вы.//васъ.
+ gramm: SPRO,pl,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: васъ.
+ gramm: SPRO,pl,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: ваю.
+ gramm: SPRO,du,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: вами.
+ gramm: SPRO,pl,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: ва.//вы.
+ gramm: SPRO,du,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: вама.
+ gramm: SPRO,du,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: вы.
+ gramm: SPRO,pl,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: вы
+ stem: вам.//выъ.
+ gramm: SPRO,pl,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: има.
+ gramm: SPRO,du,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: има.
+ gramm: SPRO,du,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: ею.
+ gramm: SPRO,du,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: ею.
+ gramm: SPRO,du,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: и.
+ gramm: SPRO,sg,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: ему.//нему.
+ gramm: SPRO,sg,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: ихъ.//нихъ.
+ gramm: SPRO,pl,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: ѣ.//ихъ.
+ gramm: SPRO,pl,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: имъ.//нимъ.
+ gramm: SPRO,pl,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: ихъ.//нихъ.
+ gramm: SPRO,pl,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: я.
+ gramm: SPRO,du,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: ими.//ними.
+ gramm: SPRO,pl,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: его.//ево.//него.//нево.
+ gramm: SPRO,sg,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: имь.//нимь.
+ gramm: SPRO,sg,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: и.//его.//ево.
+ gramm: SPRO,sg,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: и.
+ gramm: SPRO,pl,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: емь.//немь.
+ gramm: SPRO,sg,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: онъ
+ stem: я.
+ gramm: SPRO,du,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тѣма.
+ gramm: SPRO,du,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тѣма.
+ gramm: SPRO,du,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тою.
+ gramm: SPRO,du,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тою.
+ gramm: SPRO,du,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тъ.
+ gramm: SPRO,sg,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тому.
+ gramm: SPRO,sg,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тѣхъ.
+ gramm: SPRO,pl,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: ты.
+ gramm: SPRO,pl,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тѣмъ.
+ gramm: SPRO,pl,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тѣхъ.
+ gramm: SPRO,pl,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: ата.
+ gramm: SPRO,du,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тѣми.
+ gramm: SPRO,pl,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: того.//тово.
+ gramm: SPRO,sg,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тѣмь.
+ gramm: SPRO,sg,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: тъ.
+ gramm: SPRO,sg,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: ти.
+ gramm: SPRO,pl,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: томь.
+ gramm: SPRO,sg,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: тотъ
+ stem: та.
+ gramm: SPRO,du,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: има.
+ gramm: SPRO,du,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: има.
+ gramm: SPRO,du,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: ю.
+ gramm: SPRO,du,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: ею.//ю.
+ gramm: SPRO,du,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: е.
+ gramm: SPRO,sg,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: ему.//нему.
+ gramm: SPRO,sg,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: ихъ.//нихъ.
+ gramm: SPRO,pl,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: я.//ихъ.
+ gramm: SPRO,pl,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: имъ.//нимъ.
+ gramm: SPRO,pl,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: ихъ.//нихъ.
+ gramm: SPRO,pl,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: и.
+ gramm: SPRO,du,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: ими.//ними.
+ gramm: SPRO,pl,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: его.//ево.//него.//нево.
+ gramm: SPRO,sg,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: имь.//нимь.
+ gramm: SPRO,sg,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: его.//ево.
+ gramm: SPRO,sg,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: я.
+ gramm: SPRO,pl,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: емь.//немь.
+ gramm: SPRO,sg,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: оно
+ stem: и.
+ gramm: SPRO,du,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣма.
+ gramm: SPRO,du,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣма.
+ gramm: SPRO,du,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тою.
+ gramm: SPRO,du,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тою.
+ gramm: SPRO,du,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: то.
+ gramm: SPRO,sg,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тому.
+ gramm: SPRO,sg,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣхъ.
+ gramm: SPRO,pl,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: та.
+ gramm: SPRO,pl,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣмъ.
+ gramm: SPRO,pl,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣхъ.
+ gramm: SPRO,pl,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣ.
+ gramm: SPRO,du,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣми.
+ gramm: SPRO,pl,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: того.//тово.
+ gramm: SPRO,sg,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣмь.
+ gramm: SPRO,sg,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: то.
+ gramm: SPRO,sg,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: т.
+ gramm: SPRO,pl,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: томь.
+ gramm: SPRO,sg,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: то
+ stem: тѣ.
+ gramm: SPRO,du,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тѣма.
+ gramm: SPRO,du,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тѣма.
+ gramm: SPRO,du,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тою.
+ gramm: SPRO,du,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тою.
+ gramm: SPRO,du,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: та.
+ gramm: SPRO,sg,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тои.
+ gramm: SPRO,sg,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тѣхъ.
+ gramm: SPRO,pl,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: ты.
+ gramm: SPRO,pl,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тѣмъ.
+ gramm: SPRO,pl,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тѣхъ.
+ gramm: SPRO,pl,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тѣ.
+ gramm: SPRO,du,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тѣми.
+ gramm: SPRO,pl,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тоѣ.
+ gramm: SPRO,sg,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тою.
+ gramm: SPRO,sg,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: ту.
+ gramm: SPRO,sg,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: ты.
+ gramm: SPRO,pl,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тои.
+ gramm: SPRO,sg,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: та
+ stem: тѣ.
+ gramm: SPRO,du,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: има.
+ gramm: SPRO,du,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: има.
+ gramm: SPRO,du,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ею.
+ gramm: SPRO,du,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ею.
+ gramm: SPRO,du,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: я.
+ gramm: SPRO,sg,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: еи.//ей.//ней.//неи.
+ gramm: SPRO,sg,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ихъ.//нихъ.
+ gramm: SPRO,pl,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ѣ.//ихъ.
+ gramm: SPRO,pl,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: имъ.//нимъ.
+ gramm: SPRO,pl,dat
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ихъ.//нихъ.
+ gramm: SPRO,pl,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: и.
+ gramm: SPRO,du,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ими.//ними.
+ gramm: SPRO,pl,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: еѣ.//ее.//нее.//неѣ.
+ gramm: SPRO,sg,gen
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ею.//нею.
+ gramm: SPRO,sg,ins
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ю.//ее.//.
+ gramm: SPRO,sg,acc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: ѣ.
+ gramm: SPRO,pl,nom
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: еи.//ей.//ней.//неи.
+ gramm: SPRO,sg,loc
+ paradigm: unchangeable
+ transl_ru: 
+-lexeme
+ lex: она
+ stem: и.
+ gramm: SPRO,du,acc
+ paradigm: unchangeable
+ transl_ru: 
