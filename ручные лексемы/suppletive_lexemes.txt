@@ -1,367 +1,367 @@
 -lexeme
  lex: быти
- stem: .//есте.
+ stem: есте.
  gramm: SPRO,indic,praes,pl,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//суть.//суца.
+ stem: суть.
  gramm: SPRO,indic,praes,pl,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//есъ.//есмы.//есмя.
+ stem: есъ.//есмы.//есмя.
  gramm: SPRO,indic,praes,pl,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//были.
+ stem: были.
  gramm: SPRO,perf,pl,m
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//была.
+ stem: была.
  gramm: SPRO,perf,pl,n
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//были.//былы.
+ stem: были.//былы.
  gramm: SPRO,perf,pl,f
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быть.//быца.//быти.//бысть.
+ stem: быть.//быти.//бысть.//быто.
  gramm: SPRO,inf
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//буди.
+ stem: буди.
  gramm: SPRO,imper,sg,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//буди.
+ stem: буди.
  gramm: SPRO,imper,sg,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будете.//будѣте.//будите.
+ stem: будете.//будѣте.//будите.
  gramm: SPRO,imper,pl,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//было.
+ stem: было.
  gramm: SPRO,perf,sg,n
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бѣ.//бе.
+ stem: бысть.//бы.//бѣ.//бе.
  gramm: SPRO,indic,aor,sg,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быся.//бысца.//бысть.//бысь.//бы.//бѣся.//бѣ.//бѣсь.//бесь.//беся.//бе.
+ stem: бысть.//бы.//бѣ.//бе.
  gramm: SPRO,indic,aor,sg,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//есва.//есве.//есвѣ.
+ stem: есва.//есве.//есвѣ.
  gramm: SPRO,indic,praes,du,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//естѣ.//есте.//еста.
+ stem: естѣ.//есте.//еста.
  gramm: SPRO,indic,praes,du,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//естѣ.//есте.//еста.
+ stem: естѣ.//есте.//еста.
  gramm: SPRO,indic,praes,du,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бяхове.//бяхова.//бяховѣ.
+ stem: бяхове.//бяхова.//бяховѣ.
  gramm: SPRO,indic,imperf,du,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бяста.//бясте.//бястѣ.
+ stem: бяста.//бясте.//бястѣ.
  gramm: SPRO,indic,imperf,du,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бяста.//бясте.//бястѣ.
+ stem: бяста.//бясте.//бястѣ.
  gramm: SPRO,indic,imperf,du,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бясте.
+ stem: бясте.
  gramm: SPRO,indic,imperf,pl,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бяху.
+ stem: бяху.
  gramm: SPRO,indic,imperf,pl,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бяхомъ.
+ stem: бяхомъ.
  gramm: SPRO,indic,imperf,pl,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быле.//былѣ.
+ stem: быле.//былѣ.
  gramm: SPRO,perf,du,f
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быхъ.//бѣхъ.//бяхъ.//бехъ.
+ stem: быхъ.//бѣхъ.//бяхъ.//бехъ.//быхь.
  gramm: SPRO,indic,imperf,sg,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бѣ.//бяше.
+ stem: бяше.
  gramm: SPRO,indic,imperf,sg,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бяше.
+ stem: бяше.//быше.
  gramm: SPRO,indic,imperf,sg,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бѣхова.//бехова.//бехове.//бѣховѣ.
+ stem: бѣхова.//бехова.//бехове.//бѣховѣ.
  gramm: SPRO,indic,aor,du,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//беста.//бѣста.//бесте.//бѣстѣ.
+ stem: беста.//бѣста.//бесте.//бѣстѣ.
  gramm: SPRO,indic,aor,du,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//беста.//бѣста.//бесте.//бѣстѣ.
+ stem: беста.//бѣста.//бесте.//бѣстѣ.
  gramm: SPRO,indic,aor,du,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//былъ.
+ stem: былъ.
  gramm: SPRO,perf,sg,m
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будиме.//будимъ.//будемъ.//бѹдѣмъ.//будеме.
+ stem: будиме.//будимъ.//будемъ.//бѹдѣмъ.//будеме.
  gramm: SPRO,imper,pl,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бѣша.//беша.//бешѧ.//бѣшѧ.
+ stem: бѣша.//беша.//бешѧ.//бѣшѧ.
  gramm: SPRO,indic,aor,pl,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бѣсте.//бесте.
+ stem: бѣсте.//бесте.
  gramm: SPRO,indic,aor,pl,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бѣхомъ.//бехомъ.
+ stem: бѣхомъ.//бехомъ.
  gramm: SPRO,indic,aor,pl,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будитѣ.//будита.//будите.
+ stem: будитѣ.//будита.//будите.
  gramm: SPRO,imper,du,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будива.//будеве.//будевѣ.//будиве.//будева.//будивѣ.
+ stem: будива.//будеве.//будевѣ.//будиве.//будева.//будивѣ.
  gramm: SPRO,imper,du,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бѣхъ.//бехъ.
+ stem: бѣхъ.//бехъ.
  gramm: SPRO,indic,aor,sg,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//есмь.
+ stem: есмь.
  gramm: SPRO,indic,praes,sg,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//еси.
+ stem: еси.
  gramm: SPRO,indic,praes,sg,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//есца.//есть.
+ stem: есть.
  gramm: SPRO,indic,praes,sg,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//была.
+ stem: была.
  gramm: SPRO,perf,du,m
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быле.//былѣ.
+ stem: быле.//былѣ.
  gramm: SPRO,perf,du,n
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//была.
+ stem: была.
  gramm: SPRO,perf,sg,f
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будете.
- gramm: SPRO,analyt,indic,praes,pl,2p
+ stem: будете.
+ gramm: SPRO,analyt,indic,fut,pl,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будю.//будуца.//будоу.//будутъ.//будуть.
- gramm: SPRO,analyt,indic,praes,pl,3p
+ stem: будоу.//будутъ.//будуть.
+ gramm: SPRO,analyt,indic,fut,pl,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будемъ.//будеме.
- gramm: SPRO,analyt,indic,praes,pl,1p
+ stem: будемъ.//будеме.
+ gramm: SPRO,analyt,indic,fut,pl,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бысца.//бысть.
+ stem: бысть.
  gramm: SPRO,analyt,indic,aor,sg,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бысца.//бысть.
+ stem: бысть.
  gramm: SPRO,analyt,indic,aor,sg,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бѹдевѣ.//будева.//будеве.//будевѣ.
- gramm: SPRO,analyt,indic,praes,du,1p
+ stem: бѹдевѣ.//будева.//будеве.//будевѣ.
+ gramm: SPRO,analyt,indic,fut,du,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будета.//будете.//будетѣ.
- gramm: SPRO,analyt,indic,praes,du,3p
+ stem: будета.//будете.//будетѣ.
+ gramm: SPRO,analyt,indic,fut,du,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будета.//будете.//будетѣ.
- gramm: SPRO,analyt,indic,praes,du,2p
+ stem: будета.//будете.//будетѣ.
+ gramm: SPRO,analyt,indic,fut,du,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быховѣ.//быхова.//быхове.
+ stem: быховѣ.//быхова.//быхове.
  gramm: SPRO,analyt,indic,aor,du,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быстѣ.//быста.//бысте.
+ stem: быстѣ.//быста.//бысте.
  gramm: SPRO,analyt,indic,aor,du,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быстѣ.//быста.//бысте.
+ stem: быстѣ.//быста.//бысте.
  gramm: SPRO,analyt,indic,aor,du,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быша.//бышѧ.
+ stem: быша.//бышѧ.//быше.
  gramm: SPRO,analyt,indic,aor,pl,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//бысте.
+ stem: бысте.
  gramm: SPRO,analyt,indic,aor,pl,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быхомъ.
+ stem: быхомъ.
  gramm: SPRO,analyt,indic,aor,pl,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//быхъ.
+ stem: быхъ.
  gramm: SPRO,analyt,indic,aor,sg,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//буду.
- gramm: SPRO,analyt,indic,praes,sg,1p
+ stem: буду.
+ gramm: SPRO,analyt,indic,fut,sg,1p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будеши.
- gramm: SPRO,analyt,indic,praes,sg,2p
+ stem: будеши.//будешь.
+ gramm: SPRO,analyt,indic,fut,sg,2p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
  lex: быти
- stem: .//будеца.//будеть.//будетъ.//буде.
- gramm: SPRO,analyt,indic,praes,sg,3p
+ stem: будеть.//будетъ.//буде.
+ gramm: SPRO,analyt,indic,fut,sg,3p
  paradigm: unchangeable
  transl_ru: 
 -lexeme
